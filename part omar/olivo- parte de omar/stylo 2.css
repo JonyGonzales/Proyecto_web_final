@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #E8A846;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: 70px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    filter: brightness(0) invert(1);
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin-right: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.icons img {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.icons img:last-child {
+    margin-right: 0;
+}
+
+.services {
+    background-color: #466FE8;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #EFC37E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon img {
+    width: 80px;
+    height: 80px;
+}
+
+.payment-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-form-frame {
+    display: inline-block;
+    border: 2px solid #ccc;
+    padding: 40px;
+}
+
+.payment-form {
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #E8A846;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #D99E36;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,342 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #ffffff;
+
+}
+
+.containers {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #e8a846;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav a {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+nav a:hover {
+  color: #466fe8;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.encabezado {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.general {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  flex-direction: row;
+  max-height: inherit;
+}
+
+.columnabusqueda {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-height: inherit;
+  padding-left: 10px;
+}
+
+classbusqueda {
+  padding-inline: 10px;
+  flex: 1 1 auto;
+}
+
+.busqueda input {
+  height: 60px;
+  width: 500px;
+  border-radius: 60px;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 21px;
+}
+
+.columnavariada {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  max-height: inherit;
+}
+
+.items {
+  display: flex;
+  width: 89px;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnaregistro {
+  display: flex;
+  align-items: center;
+  background: #e58c0a;
+  flex-direction: row;
+  max-height: inherit;
+  padding-right: 34px;
+  padding-left: 34px;
+}
+
+.item2 {
+  display: flex;
+  background-color: #e8a846;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 21px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  margin-right: 34px;
+  margin-left: 34px;
+}
+
+button {
+  padding: .375rem .75rem;
+  border-radius: .34rem;
+  background-color: #466fe8;
+  color: #ffffff;
+  transition: background-color .15s ease-in-out;
+  outline: none;
+  border: none;
+  font-size: 28px;
+  padding-right: 34px;
+  padding-left: 34px;
+}
+
+.item3 {
+  display: flex;
+  background-color: #E8A846;
+  justify-content: flex-end;
+  margin-right: 34px;
+  margin-left: 34px;
+}
+
+.precios {
+  color: #000000;
+  margin-right: 70px;
+}
+
+.item4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: #e8a846;
+  max-height: inherit;
+  padding-right: 34px;
+  padding-left: 34px;
+  margin-right: 34px;
+  margin-left: 34px;
+  padding-bottom: 34px;
+  padding-top: 34px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px;
+}
+
+.cantidad {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.item5 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  background: #e8a846;
+  max-height: inherit;
+  padding-right: 34px;
+  padding-left: 34px;
+  margin-right: 34px;
+  margin-left: 34px;
+  padding-bottom: 34px;
+  padding-top: 34px;
+}
+
+.totales {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.totales2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-right: 34px;
+  font-size: 21px;
+}
+
+.item6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background: #466fe8;
+  max-height: inherit;
+  padding-top: 34px;
+  padding-right: 68px;
+  padding-left: 68px;
+  margin-top: 21px;
+}
+
+.item7 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: #ffffff;
+  justify-content: space-between;
+  background: #466fe8;
+  max-height: inherit;
+  padding-bottom: 34px;
+  padding-right: 68px;
+  padding-left: 68px;
+}
+
+.letra{
+  font-size: x-large; color: white;
+}
+
+
+
+
+
+
+i {
+  font-size: 23px;
+}
+
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  margin: 0.5%;
+}
+
+.contenedor-destacados {
+  margin: 0.5%;
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que las tarjetas se ajusten a la fila */
+  gap: 20px;
+  /* Espacio entre las tarjetas */
+}
+
+.contenedor-carrusel {
+  padding-left: 5%;
+}
+
+.lista {
+  padding-top: 5%;
+  border: 10px;
+}
+
+.btn {
+  border-style: none;
+  box-shadow: none !important;
+}
+
+.barra {
+  display: flex;
+  background-color: rgb(232, 168, 70);
+  justify-content: center;
+  align-items: center;
+  margin: 0.5%;
+}
+
+.card {
+
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+
+  flex: 1;
+  max-width: 25%;
+  aspect-ratio: 1;
+
+
+}
+
+.card .textos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: transparent;
+
+}
+
+.buscador {
+  width: 350px;
+  font-size: 20px;
+
+}
+
+.logo {
+  background-color: white;
+
+}
+
+.titulo {
+  background-color: rgb(232, 168, 70);
+}
+
+.footer{
+background-color: #201e1e;
+color: white;
+}
+
+
+
+
+.td{
+  text-align: center;
+}
+
+th{
+  font-weight: bold;
+  font-size: xx-large;
+}
+.micarrito{
+  background-color: rgb(232, 168, 70);
+
+}

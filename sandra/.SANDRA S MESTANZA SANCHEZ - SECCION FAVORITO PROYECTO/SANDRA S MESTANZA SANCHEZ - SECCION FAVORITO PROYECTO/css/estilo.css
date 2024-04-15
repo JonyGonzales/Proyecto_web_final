@@ -1,0 +1,153 @@
+body{
+  margin: 0.5%;
+  background-color: #FFFF;
+
+}
+i {
+  font-size: 23px;
+}
+
+.texto {
+  font-size: 20px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1.5fr 5fr;
+  margin: 0.5%;
+}
+
+.contenedor-destacados {
+    margin: 0.5%;
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a la fila */
+    gap: 20px; /* Espacio entre las tarjetas */
+}
+
+.contenedor-carrusel {
+  padding-left: 5%;
+}
+
+.lista {
+  padding-top: 5%;
+  border: 10px;
+}
+
+.btn {
+  border-style: none;
+  box-shadow: none !important;
+}
+
+.barra {
+  display: flex;
+  background-color: rgb(232, 168, 70);
+  justify-content: center;
+  align-items: center;
+  margin: 0.5%;
+}
+.card {
+
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+
+  flex: 1; 
+  max-width: 25%; 
+  aspect-ratio: 1; 
+
+
+}
+
+.card .textos {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: transparent;
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+
+.column {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #466FE8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products, .favorites {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 40px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 20px 40px;
+}
+
+.product-info {
+  margin-right: 10px;
+  padding: 60px 10px;
+}
+
+.product img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+
+
+h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  color: #fff;
+ }
+
+footer {
+  background-color: #466FE8 ; /* Color celeste */
+  padding: 20px 10px ;
+  text-align: center;
+}
+
+
+.icon, .social-media {
+  margin: 0 10px; /* Espacio entre los elementos */
+  padding: 20px 10px ;
+  
+}
+
+.icon img, .social-media img {
+  width: 30px; /* Ajustar el tamaño de los iconos */
+  height: 30px;
+  
+ }
+
+
+
